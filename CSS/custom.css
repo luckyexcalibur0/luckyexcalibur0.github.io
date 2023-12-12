@@ -1,0 +1,107 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-top: 70px; /* Adjust margin-top to accommodate the fixed header */
+    font-family: 'Assistant', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #23b464;
+    color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.logo1 {
+    max-width: 100%;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    padding-right: 270px;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+
+#menu a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+#menu a:hover {
+    color: #ffa07a; /* or any other color you prefer */
+}
+
+#content {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px; /* Adjust this value based on your header height */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 22%;
+    text-align: center;
+    padding: 10px;
+    background-color: #6da6d4;
+    color: #2aadce;
+}
+
+.styled-table-container {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow: auto;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    position: relative; /* Set relative position */
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0; /* Set the top value to 0 to make it stick at the top */
+    z-index: 1; /* Set z-index to appear above content while scrolling */
+}
+
+
+
+
+
